@@ -89,7 +89,7 @@ class HelloMessage extends _nervjs2.default.Component {
   }
 }
 //Render our element into  with id .
-_nervjs2.default.render(_nervjs2.default.createElement(HelloMessage, { name: 'Nerv' }), document.getElementById('app'));
+_nervjs2.default.render(_nervjs2.default.createElement(HelloMessage, { name: 'Nerv Enhanced' }), document.getElementById('app'));
 
 /***/ }),
 /* 1 */
