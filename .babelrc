@@ -1,0 +1,15 @@
+{
+  "presets": [
+        ["env", {
+            "targets": {
+              "chrome": "63"
+            }
+        }],
+        ["react"]
+   ],
+        "plugins" : [
+                ["transform-react-jsx", {
+                        "pragma": "Nerv.createElement" // default pragma is React.createElement
+                }],
+        ]
+}

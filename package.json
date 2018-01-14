@@ -1,0 +1,19 @@
+{
+  "name": "HelloNerv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src -d ./lib; webpack"
+  },
+  "dependencies": {
+    "nervjs": "^1.2.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
+}
